@@ -1,0 +1,1 @@
+savedcmd_/home/cf/test/hello.ko := ld -r  -EL  -maarch64linux -z norelro -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/cf/test/hello.ko /home/cf/test/hello.o /home/cf/test/hello.mod.o;  true
